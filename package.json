@@ -6,41 +6,40 @@
     "homepage": "https://github.com/vmfhrmfoaj-tech/open-source-flow",
     "repository": "https://github.com/vmfhrmfoaj-tech/open-source-flow",
     "bugs": {
-      "url": "https://github.com/vmfhrmfoaj-tech/open-source-flow/issues",
-      "email": "vmfhrmfoaj@nate.com"
+        "url": "https://github.com/vmfhrmfoaj-tech/open-source-flow/issues",
+        "email": "vmfhrmfoaj@nate.com"
     },
     "scripts": {
-      "prepare": "husky install",
-      "dev": "",
-      "lint": "eslint lib test",
-      "test": "yarn lint && jest",
-      "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+        "prepare": "husky install",
+        "dev": "",
+        "lint": "eslint lib test",
+        "test": "yarn lint && jest",
+        "release": "yarn test && standard-version && git push --follow-tags && npm publish"
     },
     "keywords": [
-      "open-source-flow"
+        "open-source-flow"
     ],
     "contributors": [
-      {
-        "name": "vmfhrmfoaj<vmfhrmfoaj@nate.com>"
-      }
+        {
+            "name": "vmfhrmfoaj<vmfhrmfoaj@nate.com>"
+        }
     ],
     "license": "MIT",
     "publishConfig": {
-      "access": "public"
+        "access": "public"
     },
     "files": [
-      "lib"
+        "lib"
     ],
-    "dependencies": {},
     "devDependencies": {
-      "@commitlint/cli": "^13.1.0",
-      "@commitlint/config-conventional": "^13.1.0",
-      "eslint": "^7.32.0",
-      "eslint-config-airbnb-base": "^14.2.1",
-      "eslint-config-prettier": "^8.3.0",
-      "eslint-plugin-prettier": "^4.0.0",
-      "husky": "^7.0.2",
-      "lint-staged": "^11.1.2",
-      "prettier": "2.4.1"
+        "@commitlint/cli": "^13.1.0",
+        "@commitlint/config-conventional": "^13.1.0",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.2",
+        "lint-staged": "^11.1.2",
+        "prettier": "2.4.1"
     }
-  }
+}
