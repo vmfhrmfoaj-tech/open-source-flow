@@ -1,18 +1,14 @@
 module.exports = {
-    root: true,
-    parserOptions: {
-      parser: 'babel-eslint',
-      sourceType: 'module'
-    },
-    env: {
-      browser: true,
-      'jest/globals': true
-    },
+    plugins: ['prettier'],
     extends: [
-      'standard'
+        'eslint:recommended',
+        'plugin:prettier/recommended',
+        'airbnb-base',
+        'prettier',
     ],
-    plugins: [
-      'jest'
-    ],
-    rules: {}
-  }
+    rules: {
+        'no-console': 'off',
+        'no-unused-vars': 'warn',
+        'prettier/prettier': 'error',
+    },
+};
